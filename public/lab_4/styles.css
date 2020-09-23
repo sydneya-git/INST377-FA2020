@@ -29,7 +29,8 @@ body {
   
   .flex-outer {
     max-width: 800px;
-    margin: 0 auto;
+    margin-left: 0px;
+    padding: 0px 16px;
   }
   
   .flex-outer li,
@@ -48,22 +49,22 @@ body {
     margin-bottom: 20px;
   }
   
-  /*.flex-outer li label,
+  .flex-outer li label,
   .flex-outer li p {
     padding: 8px;
     font-weight: 300;
     letter-spacing: .09em;
-  }*/
+  }
   
   .flex-outer > li > label,
   .flex-outer li p {
-    flex: 1 0 130px;
+    flex: 1 0 125px;
     max-width: 225px;
   }
   
   .flex-outer > li > label + *,
   .flex-inner {
-    flex: 1 0 220px;
+    flex: 1 0 225px;
   }
   
   .flex-outer li p {
@@ -76,16 +77,16 @@ body {
   }
   
   .flex-outer li button {
-    padding: 8px 16px;
+    padding: 6px 12px;
     border: none;
     background: rgb(236, 231, 231);
     color: #000000;
     text-transform: uppercase;
     letter-spacing: .09em;
-    border-radius: 2px;
+    border-radius: 3px;
   }
   
   .flex-inner li {
-    width: 100px;
+    width: 80px;
   }
   
