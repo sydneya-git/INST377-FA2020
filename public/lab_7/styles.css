@@ -13,7 +13,7 @@ body {
 }
 
 .header {
-  color: #fff;
+  color: rgb(255, 255, 255);
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -46,8 +46,8 @@ body {
 }
 
 .flex-outer button {
-  background-color: darkolivegreen;
-  color: white;
+  background-color: rgb(47, 75, 107);
+  color: rgb(255, 255, 255);
   padding: 6px 12px;
   border: none;
   text-transform: uppercase;
@@ -84,8 +84,8 @@ h1 {
   margin: 20px 50px;
   padding: 0 20px;
   min-height: 75px;
-  background-color: darkolivegreen;
-  color: white;
+  background-color: rgb(105, 47, 107);
+  color: rgb(255, 255, 255);
   display: flex;
   
   align-items: center;
